@@ -1,0 +1,2 @@
+body { background-color: black; color: white; font-size: 20pt; }
+.s { display: inline-flex; vertical-align: middle; border: 1px solid white; height: 100px; width: 100px; justify-content: center; align-items: center; }
