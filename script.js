@@ -1,5 +1,5 @@
-let $=(s)=>{return document.querySelector(s)}, $$=(s)=>{return document.querySelectorAll(s)},
-a = 'addEventListener', f = 'forEach', i = 'innerText', t = 0, _='';
+let $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s),
+a='addEventListener', f='forEach', i='innerText', t=0, _='';
 $$('.s')[f](z => z[a]('click', c => {
     let e = c.srcElement;
     if(t===-1) return $$('.s')[f](e=>e[i]=_),t=0;
